@@ -1,5 +1,11 @@
 # Palworld Server Manager
  管理伺服器備份以及記憶體高佔用處理的批次檔(bat)
+> [!IMPORTANT]
+> 這個批次檔已經過時。
+>
+> 專用伺服器已經修正了記憶體洩漏(memory leak)的問題，並且內建了自動備份，請參考這個網站並在palworldsetting.ini開啟該功能。
+>
+> https://docs.berrybyte.net/games/palworld/enable-autosave-automatic-backups
 
 ## 主要功能
 - 伺服器存檔(包含地圖及人物數據)每隔10分鐘自動備份，備份最多保留最新的200個
